@@ -125,10 +125,9 @@ def calRMSE(src_pts,dst_pts,M,mask):
     rmse = cmath.sqrt(sum_H/num)
     print("rmse : ",rmse)
     return rmse
-# B,B_proj, B_geotrans = readTIFF(r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T1\t1_clip.tif", 1)
-# F,F_proj, F_geotrans = readTIFF(r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T2\t2_clip.tif", 1)
-B = loadtif(r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T1\t1_clip.tif")
-F = loadtif(r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T2\t2_clip.tif")
+
+B = loadtif(r'')
+F = loadtif(r'')
 # F = np.resize(F,B.shape) if B.shape != F.shape else None #这句话有他妈大病
 # x_offset,y_offset = 500,600
 # block_size_x = 1000
