@@ -145,8 +145,8 @@ class Co_registry(object):
         print('数据处理完毕，耗时：{}s'.format(run_time))
 
 if __name__ == "__main__":
-    t1_path = r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T1\t1_clip.tif"
-    t2_path = r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T2\t2_clip.tif"
-    out_dir = r'C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2'
+    t1_path = r''
+    t2_path = r''
+    out_dir = r''
     registry = Co_registry(t1_path,t2_path,out_dir)
     registry.run()
