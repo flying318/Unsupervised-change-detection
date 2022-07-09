@@ -89,7 +89,7 @@ def find_PCAKmeans(t1_path,t2_path,out_path):
     return
 
 if __name__=='__main__':
-    t1_path = r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T1\t1_clip.tif"
-    t2_path = r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2\T2\t2_clip.tif"
-    out_dir = r"C:\Users\flying\Desktop\学习资料\SAR相关\长沙\GF2"
+    t1_path = r''
+    t2_path = r''
+    out_dir = r''
     find_PCAKmeans(t1_path,t2_path,out_dir)
